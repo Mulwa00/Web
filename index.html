@@ -31,6 +31,110 @@
 </div>
 </section>
 </body>
+<!-----Form-------->
+<section>
+    <title>Velocity Movers Service Form</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #007bff; /* Blue color */
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #28a745; /* Green color */
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: "Times New Roman", Times, serif;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff; /* Blue color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Velocity Movers Service Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required>
+            </div>
+            <div class="form-group">
+                <label for="service">Service</label>
+                <select id="service" name="service" required>
+                    <option value="internationalMove">International Move</option>
+                    <option value="houseMove">House Move</option>
+                    <option value="wareHousing">Warehousing</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="movingFrom">Moving From</label>
+                <input type="text" id="movingFrom" name="movingFrom" required>
+            </div>
+            <div class="form-group">
+                <label for="movingTo">Moving To</label>
+                <input type="text" id="movingTo" name="movingTo" required>
+            </div>
+            <div class="form-group">
+                <label for="movingDate">Moving Date</label>
+                <input type="date" id="movingDate" name="movingDate" required>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">Phone Number</label>
+                <input type="tel" id="phoneNumber" name="phoneNumber" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</section>
+
 <!----- services ---->
 <section class="services">
     <h1>Services We Offer</h1>
