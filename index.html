@@ -3,103 +3,17 @@
 <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0">
     <title>Velocity Relocations</title>
-    <link rel="icon" type="image/png" href="logo 2.png">
+    <link rel="website icon" type="png" href="logo 2.png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
-    <style>
-        body {
-            font-family: "Times New Roman", Times, serif;
-            background-color: #f4f4f4;
-            margin: 0;
-        }
-        .header, .services, .location, .form-container {
-            padding: 20px;
-            text-align: center;
-        }
-        .header nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .nav-links ul {
-            display: flex;
-            list-style: none;
-            padding: 0;
-        }
-        .nav-links ul li {
-            margin-right: 20px;
-        }
-        .text-box h1 {
-            color: #333;
-        }
-        .text-box .par {
-            color: #333;
-        }
-        .form-container .container {
-            background-color: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 400px;
-            margin: 0 auto;
-        }
-        .form-container h2 {
-            color: #007bff; /* Blue color */
-        }
-        .form-group {
-            margin-bottom: 10px;
-        }
-        .form-group label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-            color: #28a745; /* Green color */
-        }
-        .form-group input, .form-group select {
-            width: 100%;
-            padding: 6px;
-            box-sizing: border-box;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-family: "Times New Roman", Times, serif;
-        }
-        .form-group button {
-            width: 100%;
-            padding: 8px;
-            background-color: #007bff; /* Blue color */
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 14px;
-            cursor: pointer;
-        }
-        .form-group button:hover {
-            background-color: #0056b3; /* Darker blue on hover */
-        }
-        .services h1, .location h1 {
-            color: #28a745; /* Green color */
-        }
-        .course-col h3 {
-            color: #28a745; /* Green color */
-        }
-        .course-col p {
-            color: #007bff; /* Blue color */
-        }
-        .location-col h3 {
-            background-color: rgba(0, 123, 255, 0.7); /* Semi-transparent blue background */
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-        }
-    </style>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
 </head>
 <body>
 <section class="header">
     <nav>
-        <a href="index.html"><img src="logo 1.png" alt="Velocity Relocations"></a>
+        <a href="index.html"><img src="logo 1.png"></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hidemenu()"></i>
             <ul>
@@ -110,14 +24,76 @@
         </div>
         <i class="fa fa-bars" onclick="showmenu()"></i>
     </nav>
-    <div class="text-box">
-        <h1>Velocity<br>Relocations</h1>
-        <p class="par">Velocity Relocations is a professional moving company that specializes in providing comprehensive relocation services for both residential and commercial clients. The company prides itself on its commitment to efficiency, reliability, and customer satisfaction. Services offered by Velocity Relocations include local and long-distance moving, packing and unpacking, secure storage solutions, and specialized handling of delicate or high-value items. With a team of experienced movers and a fleet of well-maintained vehicles, Velocity Relocations aims to make every move as smooth and stress-free as possible. The company emphasizes transparent pricing, personalized service, and meticulous attention to detail to ensure a positive experience for all clients.</p>
-    </div>
+<div class="text-box">
+    <h1>Velocity<br>Relocations</h1>
+    <p class="par">Velocity Relocations is a professional moving company that specializes in providing comprehensive relocation services for both residential and commercial clients. The company prides itself on its commitment to efficiency, reliability, and customer satisfaction. Services offered by Velocity Relocations include local and long-distance moving, packing and unpacking, secure storage solutions, and specialized handling of delicate or high-value items. With a team of experienced movers and a fleet of well-maintained vehicles, Velocity Relocations aims to make every move as smooth and stress-free as possible. The company emphasizes transparent pricing, personalized service, and meticulous attention to detail to ensure a positive experience for all clients.</p>
+    
+</div>
 </section>
+</body>
 
-<!------- Form Section -------->
-<section class="form-container">
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocity Movers Service Form</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 350px;
+            width: 100%;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 15px;
+            color: #007bff; /* Blue color */
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #28a745; /* Green color */
+        }
+        input, select {
+            width: 100%;
+            padding: 6px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-family: "Times New Roman", Times, serif;
+        }
+        button {
+            width: 100%;
+            padding: 8px;
+            background-color: #007bff; /* Blue color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
     <div class="container">
         <h2>Service Form</h2>
         <form>
@@ -160,11 +136,12 @@
             <button type="submit">Submit</button>
         </form>
     </div>
-</section>
-
-<!----- Services Section ----->
+</body>
+</html>  
+<!----- services ---->
 <section class="services">
     <h1>Services We Offer</h1>
+    <p></p>
     <div class="row">
         <div class="course-col">
             <h3>House Moving</h3>
@@ -172,7 +149,7 @@
         </div>
         <div class="course-col">
             <h3>Office Moving</h3>
-            <p>Relocating an office is a complex task that requires careful planning and execution, and Velocity Movers is here to make it as seamless and efficient as possible. Our experienced team specializes in handling office moves, ensuring minimal disruption to your business operations. From packing and transporting office equipment and furniture to setting up your new workspace, we take care of every detail with precision and professionalism. We understand the importance of maintaining productivity during a move, so we work quickly and efficiently to get you back up and running in your new location. With our comprehensive office moving services, you can trust Velocity Movers to manage your relocation smoothly and reliably, allowing you to focus on your business.</p>
+            <p>Relocating an office is a complex task that requires careful planning and execution, and Velocity Movers is here to make it as seamless and efficient as possible. Our experienced team specializes in handling office moves, ensuring minimal disruption to your business operations. From packing and transporting office equipment and furniture to setting up your new workspace, we take care of every detail with precision and professionalism. We understand the importance of maintaining productivity during a move, so we work quickly and efficiently to get you back up and running in your new location. With our comprehensive office moving services, you can trust Velocity Movers to manage your relocation smoothly and reliably, allowing you to focus on your business./p>
         </div>
         <div class="course-col">
             <h3>Ware Housing</h3>
@@ -185,20 +162,22 @@
     </div>
 </section>
 
-<!----- Location Section ----->
-<section class="location">
+<!-----Location----->
+<section class="Location">
     <h1>Our Offices</h1>
+    <p></p>
     <div class="row">
-        <div class="location-col">
-            <img src="334.jpg" alt="Nairobi Office">
+        <div class="Location-col">
+            <img src="334.jpg">
             <div class="layer">
                 <h3>NAIROBI</h3>
             </div>
         </div>
+
     </div>
 </section>
 
-<!-------- JavaScript for Toggle Menu ------->
+<!--------JavaScript for Toggle Menu------->
 <script>
     var navLinks = document.getElementById("navLinks");
     function showmenu(){
@@ -207,13 +186,12 @@
     function hidemenu(){
         navLinks.style.right = "-200px";
     }
-</script>
 
-<!----- Footer ----->
+</script>
 <footer>
     <div class="container">
-        <p>&copy; 2024 Velocity Relocations. All rights reserved.</p>
+      <p>&copy; 2024 Velocity Relocations. All rights reserved.</p>
     </div>
-</footer>
+  </footer>
 </body>
 </html>
