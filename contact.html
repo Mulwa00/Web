@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <title>Contact Us</title>
+        <style>
+            body{
+                font-family: 'Times New Roman', Times, serif;
+                margin: 0;
+                padding: 20px;
+            }
+            .container{
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            h1{
+                text-align: center;
+            }
+            form{
+                margin-top: 20px;
+                border: 1px solid #ccc;
+                padding: 20px;
+            }
+            label{
+                display: block;
+                margin-bottom: 10px;
+            }
+            input[type="text"], input[type="email"], textarea{
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            textarea{
+                height: 150px;
+            }
+            input[type="submit"]:hover{
+                background-color: #45a049;
+            }
+            .contact-info{
+                margin-top: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="submit">
+            </form>
+
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p>Email: patrickmulwa012@gmail.com</p>
+                <p>Phone: 0745701764</p>
+                <p>Address: </p>
+            </div>
+        </div>
+    </body>
+</html>
